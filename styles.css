@@ -1,0 +1,89 @@
+body {
+    font-family: Roboto, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/* section 1 start */
+
+.header, .main-container {
+    background-color: #1f2937;
+    color: #f9faf8;
+
+}
+
+.header-logo {
+    font-weight: bold;
+
+}
+
+.main-text {
+    font-size: 48px;
+}
+
+.secondary-text {
+    font-size: 21px;
+}
+
+.sub, .secondary-text{
+    color: #d0d0d1c8;
+
+}
+.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 30px 8px 30px;
+    margin-top: 25px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 70px; 
+    font-size: 30px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.main-container {
+    display: flex;
+    
+}
+
+.text-container {
+    flex-shrink: 0;
+    padding: 40px 40px 40px 0px;
+    width: 450px;
+}
+
+.header, .main-container {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.main-text {
+    font-weight: bold;
+}
+
+.hero-image {
+    display: flex;
+    width: 550px;
+    height: 300px;
+    padding-bottom: 100px;
+}
+
+/* section 1 end */
