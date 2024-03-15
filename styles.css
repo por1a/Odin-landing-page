@@ -215,3 +215,12 @@ body {
 }
 /* end of section 4 */
 /* section 5 */
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
